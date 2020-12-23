@@ -22,6 +22,8 @@ function multiplesToOneThousand(num) {
   for(i = 0; i <= 1000 ; i += num){
      newArray.push(i)
   }
+
+
 return newArray
 }
 
@@ -33,14 +35,14 @@ return newArray
 * @returns {number[]} - An array with the first {count} powers of two
 */
 function powersOfTwo(number) {
-  powerArray = []
-  i = 0
-     while (i <= number - 1){
-       powerArray.push(2 ** i)
-      i++ 
-    }
-  return powerArray
+powerArray = []
+i = 0
+   while (i <= number - 1){
+     powerArray.push(2 ** i)
+    i++ 
   }
+return powerArray
+}
 
 module.exports = {
   evenNumbers,

@@ -22,7 +22,7 @@ function logGreeting(name) {
   * @modifies {global.globalCount}
   */
   function incrementGlobalCount(val) {
-  console.log global.globalCount(val)
+  
   }
   /** Multiplies three numbers
   * @param {number} firstNum - The first number
@@ -40,3 +40,4 @@ function logGreeting(name) {
     incrementGlobalCount,
     multiply
   }
+  
